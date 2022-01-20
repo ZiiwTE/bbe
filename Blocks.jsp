@@ -93,7 +93,7 @@
 		Connection con=null;
 		Statement stmt=null;
 		ResultSet rs=null;
-		Class.forName("com.mysql.jdbc.Driver");
+		Class.forName("com.mysql.cj.jdbc.Driver");
 		String url="jdbc:mysql://localhost:3306/blockchain?useUnicode=true&characterEncoding=gbk";
 		con=DriverManager.getConnection(url,"root","root");
 		stmt=con.createStatement();
