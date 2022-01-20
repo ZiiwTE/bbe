@@ -1,4 +1,4 @@
-<%@ page language="java" import="sqlConnect.*,rpc.*,infoGet.*,java.util.LinkedHashMap,java.text.DecimalFormat,java.math.BigDecimal,java.sql.ResultSet,java.sql.SQLException,com.strgen,java.sql.Connection,java.sql.DriverManager,java.sql.Statement" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" %>
+<%@ page language="java" import="sqlConnect.*,rpc.*,infoGet.*,java.util.LinkedHashMap,java.text.DecimalFormat,java.math.BigDecimal,java.sql.ResultSet,java.sql.SQLException,java.sql.Connection,java.sql.DriverManager,java.sql.Statement" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" %>
 <%
     String hash = request.getParameter("hash");
 %>
