@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-    <%@ page import="java.math.BigDecimal,java.sql.ResultSet,java.sql.SQLException,com.strgen,java.sql.Connection,java.sql.DriverManager,java.sql.Statement" %>
+    <%@ page import="java.math.BigDecimal,java.sql.ResultSet,java.sql.SQLException,java.sql.Connection,java.sql.DriverManager,java.sql.Statement" %>
 <!DOCTYPE html>
 <html class="day-mode" lang="en" xml:lang="en" dir="ltr">
 	<head>
